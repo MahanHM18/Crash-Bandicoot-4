@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 6ccba9f08dd7dd045aeddfb69274d1d1
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -425968258555282763
+    second: SK_CP3701_Crash|A_CP3701_Idle_SK_CP3701_Crash
+  - first:
+      74: 2724641710741188691
+    second: SK_CP3701_Crash|A_CP3701_JumpApex_SK_CP3701_Crash
+  - first:
+      74: -4391113604347666176
+    second: SK_CP3701_Crash|A_CP3701_JumpApexMoving_SK_CP3701_Crash
+  - first:
+      74: -5546178830037480760
+    second: SK_CP3701_Crash|A_CP3701_JumpDouble_SK_CP3701_Crash
+  - first:
+      74: -5393480154656641611
+    second: SK_CP3701_Crash|A_CP3701_JumpFallLoop_SK_CP3701_Crash
+  - first:
+      74: 5543393562419562717
+    second: SK_CP3701_Crash|A_CP3701_JumpLand_SK_CP3701_Crash
+  - first:
+      74: 7000053202879300816
+    second: SK_CP3701_Crash|A_CP3701_JumpLandHard_SK_CP3701_Crash
+  - first:
+      74: -3041724923680554523
+    second: SK_CP3701_Crash|A_CP3701_JumpLandRun_SK_CP3701_Crash
+  - first:
+      74: 2491300172541746279
+    second: SK_CP3701_Crash|A_CP3701_JumpStart_SK_CP3701_Crash
+  - first:
+      74: -257960635286540025
+    second: SK_CP3701_Crash|A_CP3701_JumpUpLoop_SK_CP3701_Crash
+  - first:
+      74: -5661017215491274288
+    second: SK_CP3701_Crash|A_CP3701_Run_SK_CP3701_Crash
+  - first:
+      74: 81647662902370425
+    second: SK_CP3701_Crash|A_CP3701_Run_Start_SK_CP3701_Crash
+  - first:
+      74: -5663308379027805635
+    second: SK_CP3701_Crash|A_CP3701_Run_Stop_SK_CP3701_Crash
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
