@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CrashMovement : MonoBehaviour
 {
-    [SerializeField] private float RunSpeed, RotateRate, JumpHeight;
+    [SerializeField] private float RunSpeed, RotateRate, JumpHeight, Div;
     [HideInInspector] public float Speed;
 
 
@@ -23,6 +23,7 @@ public class CrashMovement : MonoBehaviour
     [SerializeField] private Transform GroundPoint;
     [SerializeField] private float GroundDistance;
     [SerializeField] private LayerMask GroundLayer;
+
 
     private void Awake()
     {
@@ -52,14 +53,22 @@ public class CrashMovement : MonoBehaviour
         PlayerRotate();
         PlayerJump();
 
-        if (_moveDir.x == 0 && _moveDir.y == 0)
+        if (IsGrounded)
         {
-            _rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+            if (_moveDir.x == 0 && _moveDir.y == 0)
+            {
+                _rb.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
+            }
+            else
+            {
+                _rb.constraints = RigidbodyConstraints.FreezeRotation;
+            }
         }
         else
         {
             _rb.constraints = RigidbodyConstraints.FreezeRotation;
         }
+
     }
 
     void PlayerRotate()
@@ -84,12 +93,21 @@ public class CrashMovement : MonoBehaviour
                 dubleJump = true;
                 if (!_spin.IsSpin)
                     transform.GetChild(0).GetComponent<Animator>().SetTrigger("Jump");
-                _rb.velocity = new Vector3(_rb.velocity.x, JumpHeight, _rb.velocity.z); 
+                _rb.velocity = new Vector3(_rb.velocity.x, JumpHeight, _rb.velocity.z);
+
             }
 
         }
+
+        if (Input.GetKeyUp(KeyCode.V) && _rb.velocity.y > 0)
+        {
+            _rb.velocity = new Vector3(_rb.velocity.x, _rb.velocity.y / Div, _rb.velocity.z);
+        }
+
         if (IsGrounded)
             dubleJump = false;
+
+
     }
 
     private void OnDrawGizmos()

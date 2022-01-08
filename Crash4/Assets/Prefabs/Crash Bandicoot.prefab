@@ -6125,7 +6125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RunSpeed: 4
   RotateRate: 30
-  JumpHeight: 8
+  JumpHeight: 8.5
+  Div: 1.3
   Speed: 0
   GroundPoint: {fileID: 5692426669250582115}
   GroundDistance: 0.2
@@ -6170,7 +6171,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5692426669250582114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.657, z: 0}
+  m_LocalPosition: {x: 0, y: -0.599, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5692426668487603378}
